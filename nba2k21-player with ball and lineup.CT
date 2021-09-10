@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="26">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="7FF4C9F2B428"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>nba2k21.exe+3AD7E58</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"No description"</Description>
+      <LastState Value="00007FF4C99B6FD0" RealAddress="7FF4C9F2C670"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+3AD7E58</Address>
+      <Offsets>
+        <Offset>1248</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0000000000000000" RealAddress="7FF4C9F2C6C8"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+3AD7E58</Address>
+      <Offsets>
+        <Offset>12A0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22</ID>
+      <Description>"No description"</Description>
+      <LastState Value="00007FF4C99B6FD0" RealAddress="7FF4C9F2C738"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+3AD7E58</Address>
+      <Offsets>
+        <Offset>1310</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>21</ID>
+      <Description>"No description"</Description>
+      <LastState Value="00007FF4C99B6FD0" RealAddress="7FF4C9F2C748"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+3AD7E58</Address>
+      <Offsets>
+        <Offset>1320</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0000000000000000" RealAddress="7FF4C9F2C770"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+3AD7E58</Address>
+      <Offsets>
+        <Offset>1348</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"players on floor? (home after, away before)"</Description>
+      <LastState Value="00007FF4C99BCF90" RealAddress="7FF62D902350"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+4CE2350</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"No description"</Description>
+      <LastState Value="140689331056848" RealAddress="7FF62D902328"/>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+4CE2328</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

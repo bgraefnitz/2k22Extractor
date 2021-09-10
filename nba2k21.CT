@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="26">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"seconds remaining"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+3ACC150</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"quarter"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+3ACC14C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"away q1"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+610AED0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"away score"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+610B45C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"away q1"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+610B508</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"hom score"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>nba2k21.exe+5C9C761</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"home q1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>nba2k21.exe+5C9C7D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF427701850</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF4277018FC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>7FF427142F18</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"rose 2pa"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF42717F4DA</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"rose to"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF42717F8FC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"rose to"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF42717F968</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"rose 3pa"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF42717F4DE</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>7FF42717A960</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"home name"</Description>
+      <VariableType>String</VariableType>
+      <Length>7</Length>
+      <Unicode>1</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>nba2k21.exe+5C78DA4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"away team"</Description>
+      <VariableType>String</VariableType>
+      <Length>10</Length>
+      <Unicode>1</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>nba2k21.exe+5C79DFC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF42719C57A</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>21</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF42719C626</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>7FF427196EA0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"lowry name"</Description>
+      <VariableType>String</VariableType>
+      <Length>5</Length>
+      <Unicode>1</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>7FF416ACCB10</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"home base?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+5C78AF0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>7FF3EB63F520</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"No description"</Description>
+      <VariableType>String</VariableType>
+      <Length>6</Length>
+      <Unicode>1</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>7FF3015A795C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"away base?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+5C79B48</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"away num players"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>nba2k21.exe+5C7A5F9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF47766D990</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"rubio to"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF47766D96C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>33</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>7FF4776689D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"stat pointer from home base"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>7FF45A5C7E58</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>7FF47766D540</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>37</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+3AD291C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>38</ID>
+      <Description>"rubio name"</Description>
+      <VariableType>String</VariableType>
+      <Length>5</Length>
+      <Unicode>1</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>7FF3BEB9F8B0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>39</ID>
+      <Description>"No description"</Description>
+      <VariableType>String</VariableType>
+      <Length>4</Length>
+      <Unicode>1</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>nba2k21.exe+5C7F6A4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>40</ID>
+      <Description>"No description"</Description>
+      <VariableType>String</VariableType>
+      <Length>4</Length>
+      <Unicode>1</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>nba2k21.exe+5C806FC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>41</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+4D274A0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>42</ID>
+      <Description>"home roster?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+4D27B90</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>43</ID>
+      <Description>"home roster?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+5C7F3F0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>44</ID>
+      <Description>"home roster?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+5C7F4C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>45</ID>
+      <Description>"No description"</Description>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+5C80448</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>46</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>7FF3D6869E80</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>47</ID>
+      <Description>"static home?"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+5CA30D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>48</ID>
+      <Description>"static away?"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+6113494</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>49</ID>
+      <Description>"static away?"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+6113AC0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>50</ID>
+      <Description>"static away?"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+6113ACC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>52</ID>
+      <Description>"static away?"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+6113AEC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>53</ID>
+      <Description>"dynamic home"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF407165E10</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>54</ID>
+      <Description>"pointer to dynamic home"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>7FF406BC1008</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>60</ID>
+      <Description>"pointer to dynamic away"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>7FF406BC11A8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>61</ID>
+      <Description>"follow pointer then add 138 for pointer to home score 1A0 for away"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+3AD2968</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>63</ID>
+      <Description>"follow pointer then add 138 for pointer to home score 1A0 for away"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+6100C48</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>64</ID>
+      <Description>"seems to switch - follow pointer then add 138 for pointer to home score 1A0 for away"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+3AD2968</Address>
+      <Offsets>
+        <Offset>0</Offset>
+        <Offset>138</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>66</ID>
+      <Description>"seems to switch - follow pointer then add 138 for pointer to home score 1A0 for away"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+3AD2968</Address>
+      <Offsets>
+        <Offset>0</Offset>
+        <Offset>2D8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>65</ID>
+      <Description>"follow pointer then add 138 for pointer to home score 1A0 for away"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+6100C48</Address>
+      <Offsets>
+        <Offset>0</Offset>
+        <Offset>138</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>67</ID>
+      <Description>"home static"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>nba2k21.exe+5CA30D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>68</ID>
+      <Description>"away static"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+6113ACC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>69</ID>
+      <Description>"away static"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+6113AEC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>70</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF40C144094</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>71</ID>
+      <Description>"cp3 TO"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF412BC873C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>72</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF4132E6752</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>73</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+6102B6A</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>74</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+6113A2C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>75</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+6113ADA</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>76</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+6113B06</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>77</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+6113B86</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>78</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+6113BB2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>79</ID>
+      <Description>"cp3 dynamic stats"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>7FF412BC37A0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>80</ID>
+      <Description>"home roster pg"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>nba2k21.exe+5C7F3F0</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>81</ID>
+      <Description>"home roster pg stats"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>nba2k21.exe+5C7F3F0</Address>
+      <Offsets>
+        <Offset>0</Offset>
+        <Offset>4E8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>83</ID>
+      <Description>"home roster pg stats testing"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>nba2k21.exe+5C7F3F0</Address>
+      <Offsets>
+        <Offset>0</Offset>
+        <Offset>4E8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>84</ID>
+      <Description>"2fga"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF40CB85888</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>85</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF40CB85830</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>86</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF40CB85850</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>87</ID>
+      <Description>"to"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF40CB85C5C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>88</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF40CB85C58</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>89</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+3AD7910</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>90</ID>
+      <Description>"No description"</Description>
+      <VariableType>String</VariableType>
+      <Length>7</Length>
+      <Unicode>1</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>nba2k21.exe+5C84624</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>91</ID>
+      <Description>"No description"</Description>
+      <VariableType>String</VariableType>
+      <Length>5</Length>
+      <Unicode>1</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>nba2k21.exe+5C8567C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>92</ID>
+      <Description>"No description"</Description>
+      <VariableType>String</VariableType>
+      <Length>18</Length>
+      <Unicode>1</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>7FF41EFF3900</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>93</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+5E21B68</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>94</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+5BB3928</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>95</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+5C84378</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>96</ID>
+      <Description>"No description"</Description>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+5C84370</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>97</ID>
+      <Description>"No description"</Description>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+5C853C8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>98</ID>
+      <Description>"away"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF44AF083C8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>99</ID>
+      <Description>"home"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>7FF44AF07C40</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>100</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>nba2k21.exe+3AD7E58</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>102</ID>
+      <Description>"pointer to away score?"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+3AD7E58</Address>
+      <Offsets>
+        <Offset>210</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>101</ID>
+      <Description>"pointer to home score?"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>nba2k21.exe+3AD7E58</Address>
+      <Offsets>
+        <Offset>-578</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>103</ID>
+      <Description>"cp3 dynamic"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>7ff4370ffbf0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>104</ID>
+      <Description>"cp3 pt"</Description>
+      <VariableType>Float</VariableType>
+      <Address>7FF4371056F0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>105</ID>
+      <Description>"cp3 pt"</Description>
+      <VariableType>Float</VariableType>
+      <Address>7FF43713DF30</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>106</ID>
+      <Description>"dedmond"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>7ff437896c60</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>107</ID>
+      <Description>"No description"</Description>
+      <VariableType>Float</VariableType>
+      <Address>7FF4378D4FA0</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
