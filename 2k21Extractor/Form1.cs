@@ -42,28 +42,28 @@ namespace _2k22Extractor
         //to add new stats for players, add the offset here, add a property to the player class with the SAME name, add to string format, box score header, toString on player class, also need to add blanks or summaries in toString and percentagesToString in Team class
         readonly List<Offset> _playerStatOffsets = new List<Offset>
             {
-                new Offset("SecondsPlayed",23296,StatDataType.Float),
-                new Offset("Points",22224,StatDataType.TwoByteInt),
-                new Offset("DefRebounds",23258,StatDataType.TwoByteInt),
-                new Offset("Assists",23288,StatDataType.TwoByteInt),
-                new Offset("Steals",23280,StatDataType.TwoByteInt),
-                new Offset("Blocks",23282,StatDataType.TwoByteInt),
-                new Offset("Turnovers",23292,StatDataType.TwoByteInt),
-                new Offset("TwoPM",22232,StatDataType.TwoByteInt),
-                new Offset("TwoPA",22234,StatDataType.TwoByteInt),
-                new Offset("ThreePM",22236,StatDataType.TwoByteInt),
-                new Offset("ThreePA",22238,StatDataType.TwoByteInt),
-                new Offset("FTM",22228,StatDataType.TwoByteInt),
-                new Offset("FTA",22230,StatDataType.TwoByteInt),
-                new Offset("OffRebounds",23256,StatDataType.TwoByteInt),
-                new Offset("Fouls",23284,StatDataType.TwoByteInt),
-                new Offset("PlusMinus",23304,StatDataType.TwoByteInt),
-                new Offset("PointsAssisted",23290,StatDataType.TwoByteInt),
-                new Offset("PointsInPaint",22248,StatDataType.TwoByteInt),
-                new Offset("SecondChancePoints",22268,StatDataType.TwoByteInt),
-                new Offset("FastBreakPoints",22266,StatDataType.TwoByteInt),
-                new Offset("PointsOffTurnovers",22250,StatDataType.TwoByteInt),
-                new Offset("Dunks",22272,StatDataType.TwoByteInt)
+                new Offset("SecondsPlayed",23328,StatDataType.Float),
+                new Offset("Points",22256,StatDataType.TwoByteInt),
+                new Offset("DefRebounds",23290,StatDataType.TwoByteInt),
+                new Offset("Assists",23320,StatDataType.TwoByteInt),
+                new Offset("Steals",23312,StatDataType.TwoByteInt),
+                new Offset("Blocks",23314,StatDataType.TwoByteInt),
+                new Offset("Turnovers",23324,StatDataType.TwoByteInt),
+                new Offset("TwoPM",22264,StatDataType.TwoByteInt),
+                new Offset("TwoPA",22266,StatDataType.TwoByteInt),
+                new Offset("ThreePM",22268,StatDataType.TwoByteInt),
+                new Offset("ThreePA",22270,StatDataType.TwoByteInt),
+                new Offset("FTM",22260,StatDataType.TwoByteInt),
+                new Offset("FTA",22262,StatDataType.TwoByteInt),
+                new Offset("OffRebounds",23288,StatDataType.TwoByteInt),
+                new Offset("Fouls",23316,StatDataType.TwoByteInt),
+                new Offset("PlusMinus",23336,StatDataType.TwoByteInt),
+                new Offset("PointsAssisted",23322,StatDataType.TwoByteInt),
+                new Offset("PointsInPaint",22280,StatDataType.TwoByteInt),
+                new Offset("SecondChancePoints",22300,StatDataType.TwoByteInt),
+                new Offset("FastBreakPoints",22298,StatDataType.TwoByteInt),
+                new Offset("PointsOffTurnovers",22282,StatDataType.TwoByteInt),
+                new Offset("Dunks",23316,StatDataType.TwoByteInt)
             };
 
         readonly List<Offset> _strategyOffsets = new List<Offset>
@@ -393,7 +393,7 @@ namespace _2k22Extractor
                             //assuming 8 byte pointer registers since NBA 2k22 is only 64 bit
                             var statBuffer = new byte[8];
                             //this gets the static address for the given team/position on depth chart (as specified in _playerList)
-                            var pointerToPointer = (IntPtr)(lastNameAddress64 + 0x4E8);
+                            var pointerToPointer = (IntPtr)(lastNameAddress64 + 0x4F0);
                             //Get the value of the pointer, which will show where player stats are held in dynamic memory
                             ReadProcessMemory(processHandle, pointerToPointer, statBuffer, statBuffer.Length, out bytesRead);
                             //convert the byte array to an integer and then to an IntPtr
@@ -401,11 +401,13 @@ namespace _2k22Extractor
                         }
                     }
                     //Now we'll get settings from the NLL site and set them in the game
+                    /*
                     var gameSettings = NLL.DataAccessLayer.GetGameSettings(_game.Teams[0].Name, _game.Teams[1].Name);
                     foreach(var opponentSettings in gameSettings.AwaySettings)
                         MapSettingsToInGamePlayer(processHandle,_game.Teams[0], _game.Teams[1], opponentSettings);
                     foreach (var opponentSettings in gameSettings.HomeSettings)
                         MapSettingsToInGamePlayer(processHandle, _game.Teams[1], _game.Teams[0], opponentSettings);
+                    */
                     return true;
                 }
                 MessageBox.Show("Please make sure a game setup with 12 minute quarters, is loaded, and start the extractor prior to tipoff!");
