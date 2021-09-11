@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 
-namespace _2k21Extractor
+namespace _2k22Extractor
 {
     [Serializable] 
     public class Lineup

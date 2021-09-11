@@ -11,10 +11,10 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.IO;
 using System.Threading;
-using _2k21Extractor.NLL;
+using _2k22Extractor.NLL;
 using System.Collections;
 
-namespace _2k21Extractor
+namespace _2k22Extractor
 {
 
     public partial class Form1 : Form
@@ -217,7 +217,7 @@ namespace _2k21Extractor
                     //If the auto-close option is selected, then close the game and then the extractor
                     if (chkAutoClose.Checked)
                     {
-                        var firstOrDefault = Process.GetProcessesByName("nba2k21").FirstOrDefault();
+                        var firstOrDefault = Process.GetProcessesByName("nba2k22").FirstOrDefault();
                         if (firstOrDefault != null)
                             firstOrDefault.Kill();
                         Close();
@@ -271,10 +271,10 @@ namespace _2k21Extractor
 
         private bool SetupGame()
         {
-            //get the process for NBA 2k21
-            Process process = Process.GetProcessesByName("nba2k21").FirstOrDefault();
+            //get the process for NBA 2k22
+            Process process = Process.GetProcessesByName("nba2k22").FirstOrDefault();
 
-            //check to make sure NBA 2k21 is actually open
+            //check to make sure NBA 2k22 is actually open
             if (process != null)
             {
                 _baseAddress = (Int64)process.MainModule.BaseAddress;
@@ -290,8 +290,8 @@ namespace _2k21Extractor
                 _game.Teams.Clear();
                 
                 //                               Score                   OnFloor                 Team Name               Def Settings
-                _game.Teams.Add(new Team("Away",   528, _baseAddress + 0x4D0AF88, _baseAddress + 0x5CAE37C, _baseAddress + 0x5163A5C));
-                _game.Teams.Add(new Team("Home", -1400, _baseAddress + 0x4D0AFB0, _baseAddress + 0x5CAD324, _baseAddress + 0x51639C0));
+                _game.Teams.Add(new Team("Away",   528, _baseAddress + 0x4D0AF88, _baseAddress + 0x62429BC, _baseAddress + 0x5163A5C));
+                _game.Teams.Add(new Team("Home", -1400, _baseAddress + 0x4D0AFB0, _baseAddress + 0x6241764, _baseAddress + 0x51639C0));
 
                 foreach (var team in _game.Teams)
                 {
@@ -321,7 +321,7 @@ namespace _2k21Extractor
                 //get dynamic location of scores
                 var scorePointerBuffer = new byte[8];
                 var scorePointer = new IntPtr(_game.ScorePointer);
-                //Get the value of the pointer, which will show you where last name is being held in dynamic memory
+                //Get the value of the pointer, which will show you where score is being held in dynamic memory
                 ReadProcessMemory(processHandle, scorePointer, scorePointerBuffer,
                     scorePointerBuffer.Length,
                     out bytesRead);
@@ -330,7 +330,7 @@ namespace _2k21Extractor
                 //set location of player with ball based on dynamic game pointer
                 _game.PlayerWithBallPointer = _game.DynamicGamePointer + Game.PlayerWithBallModifier;
 
-                if (_game.CurrentQuarter == 1 && _game.SecondsRemaining <= Game.StartingQuarterTime)
+                if (_game.CurrentQuarter >= 1 && _game.SecondsRemaining <= Game.StartingQuarterTime)
                 {
                     //Loop through teams to get team level data like team name and team stats/scores
                     foreach (var team in _game.Teams)
@@ -390,7 +390,7 @@ namespace _2k21Extractor
                             player.LastName = lastName.Split(new string[] { "\0" }, StringSplitOptions.None)[0];
 
                             //get stats pointers
-                            //assuming 8 byte pointer registers since NBA 2k21 is only 64 bit
+                            //assuming 8 byte pointer registers since NBA 2k22 is only 64 bit
                             var statBuffer = new byte[8];
                             //this gets the static address for the given team/position on depth chart (as specified in _playerList)
                             var pointerToPointer = (IntPtr)(lastNameAddress64 + 0x4E8);
@@ -411,7 +411,7 @@ namespace _2k21Extractor
                 MessageBox.Show("Please make sure a game setup with 12 minute quarters, is loaded, and start the extractor prior to tipoff!");
                 return false;
             }
-            MessageBox.Show("NBA 2k21 Isn't Even Open!!");
+            MessageBox.Show("NBA 2k22 Isn't Even Open!!");
             return false;
         }
 
@@ -444,10 +444,10 @@ namespace _2k21Extractor
 
         private void GetStats(Game prevGame)
         {
-            //get the process for NBA 2k21
-            Process process = Process.GetProcessesByName("nba2k21").FirstOrDefault();
+            //get the process for NBA 2k22
+            Process process = Process.GetProcessesByName("nba2k22").FirstOrDefault();
 
-            //check to make sure NBA 2k21 is actually open
+            //check to make sure NBA 2k22 is actually open
             if (process != null)
             {
                 //Open the process with read-only access
@@ -556,7 +556,7 @@ namespace _2k21Extractor
                     foreach (var player in team.Players)
                         player.OnFloor(0);
 
-                    /* not needed in 2k21 - direct address
+                    /* not needed in 2k22 - direct address
                     //read the pointer to get the dynamic address where the positions are held
                     var positionPointerBuffer = new byte[8];
                     var positionPointerAddress = new IntPtr(team.PlayersOnFloorPointer);
@@ -664,7 +664,7 @@ namespace _2k21Extractor
             }
             else
             {
-                MessageBox.Show("NBA 2k21 Isn't Even Open!!");
+                MessageBox.Show("NBA 2k22 Isn't Even Open!!");
             }
         }
 
@@ -676,7 +676,7 @@ namespace _2k21Extractor
                 filePath = exportFilePath + "Live.html";
             else
             {
-                string baseFileName = "nba2k21stats_" + _game.StartTime.ToString("yyyyMMdd_HHmmss_");
+                string baseFileName = "nba2k22stats_" + _game.StartTime.ToString("yyyyMMdd_HHmmss_");
                 filePath = exportFilePath + baseFileName + _game.Teams[0].Name + "-" + _game.Teams[1].Name + "." + fileFormat;
             }
                     

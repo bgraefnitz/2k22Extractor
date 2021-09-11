@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 
-namespace _2k21Extractor
+namespace _2k22Extractor
 {
     [Serializable] 
     public class Team
@@ -160,7 +160,7 @@ namespace _2k21Extractor
             PlayersOnFloorPointer = playersOnFloorPointer;
             NamePointer = namePointer;
             BasePlayerPointer = namePointer - 0x2B4;
-            NumPlayersPointer = BasePlayerPointer + 0xAB1;
+            NumPlayersPointer = BasePlayerPointer + 0xCB1;
             DefensiveSettingsPointer = defensiveSettingsPointer;
             Players = new List<Player>();
             Score = new Score();

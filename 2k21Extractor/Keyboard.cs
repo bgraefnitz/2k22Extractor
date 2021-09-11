@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace _2k21Extractor
+namespace _2k22Extractor
 {
     public class Keyboard
     {

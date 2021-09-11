@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Linq;
 
 
-namespace _2k21Extractor
+namespace _2k22Extractor
 {
     [Serializable] 
     public class Game
@@ -27,7 +27,7 @@ namespace _2k21Extractor
                     _lastQuarterWithTime = value;
             }
         }
-        public const Int64 SecondsRemainingModifier = 0x3AFD100;
+        public const Int64 SecondsRemainingModifier = 0x3FFB0C0;
         public const Int64 QuarterModifier = SecondsRemainingModifier - 0x4;
         public const Int64 PlayerWithBallModifier = 0x1348;
         public const Int64 ScoreModifier = SecondsRemainingModifier + 0x548;

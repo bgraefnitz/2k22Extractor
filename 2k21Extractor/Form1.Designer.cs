@@ -1,4 +1,4 @@
-﻿namespace _2k21Extractor
+﻿namespace _2k22Extractor
 {
     partial class Form1
     {
@@ -164,7 +164,7 @@
             this.Controls.Add(this.txtFolder);
             this.Controls.Add(this.btnExport);
             this.Name = "Form1";
-            this.Text = "NBA 2k21 Stats Extractor";
+            this.Text = "NBA 2k22 Stats Extractor";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _2k21Extractor
+namespace _2k22Extractor
 {
     static class Program
     {

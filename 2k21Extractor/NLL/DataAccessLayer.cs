@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2k21Extractor.NLL
+namespace _2k22Extractor.NLL
 {
     class DataAccessLayer
     {

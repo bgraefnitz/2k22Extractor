@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace _2k21Extractor.NLL
+namespace _2k22Extractor.NLL
 {
     class GameSettings
     {

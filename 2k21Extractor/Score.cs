@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace _2k21Extractor
+namespace _2k22Extractor
 {
     [Serializable] 
     //might make score class just a part of team - it isn't doing much on its own

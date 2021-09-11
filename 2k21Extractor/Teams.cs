@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2k21Extractor
+namespace _2k22Extractor
 {
     class Teams
     {

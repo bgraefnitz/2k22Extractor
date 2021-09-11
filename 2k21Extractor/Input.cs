@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading;
-using static _2k21Extractor.Keyboard;
+using static _2k22Extractor.Keyboard;
 
-namespace _2k21Extractor
+namespace _2k22Extractor
 {
     class Input
     {
