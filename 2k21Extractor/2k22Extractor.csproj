@@ -7,8 +7,8 @@
     <ProjectGuid>{B3195922-6E32-4193-A030-96922AC618F9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_2k21Extractor</RootNamespace>
-    <AssemblyName>2k21Extractor</AssemblyName>
+    <RootNamespace>_2k22Extractor</RootNamespace>
+    <AssemblyName>2k22Extractor</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
