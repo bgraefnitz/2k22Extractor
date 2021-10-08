@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2k22Extractor", "2k21extractor\2k22Extractor.csproj", "{B3195922-6E32-4193-A030-96922AC618F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2k22Extractor", "2k22extractor\2k22Extractor.csproj", "{B3195922-6E32-4193-A030-96922AC618F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
