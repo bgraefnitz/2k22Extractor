@@ -27,7 +27,7 @@ namespace _2k22Extractor
                     _lastQuarterWithTime = value;
             }
         }
-        public const Int64 SecondsRemainingModifier = 0x401D000;
+        public const Int64 SecondsRemainingModifier = 0x4037A10;
         public const Int64 QuarterModifier = SecondsRemainingModifier - 0x4;
         public const Int64 PlayerWithBallModifier = 0x1348;
         public const Int64 ScoreModifier = SecondsRemainingModifier + 0x548;
