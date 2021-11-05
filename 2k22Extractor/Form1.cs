@@ -290,8 +290,8 @@ namespace _2k22Extractor
                 _game.Teams.Clear();
                 
                 //                               Score                   OnFloor                 Team Name               Def Settings
-                _game.Teams.Add(new Team("Away",   528, _baseAddress + 0x5340C68, _baseAddress + 0x627F53C, _baseAddress + 0x5163A5C));
-                _game.Teams.Add(new Team("Home", -1400, _baseAddress + 0x5340C90, _baseAddress + 0x627E2E4, _baseAddress + 0x51639C0));
+                _game.Teams.Add(new Team("Away",   528, _baseAddress + 0x53535B8, _baseAddress + 0x6291EBC, _baseAddress + 0x5163A5C));
+                _game.Teams.Add(new Team("Home", -1400, _baseAddress + 0x53535E0, _baseAddress + 0x6290C64, _baseAddress + 0x6288548));
 
                 foreach (var team in _game.Teams)
                 {
@@ -765,7 +765,7 @@ namespace _2k22Extractor
                 filePath = exportFilePath + "Live_pbyp.html";
             else
             {
-                string baseFileName = "nba2k19stats_" + _game.StartTime.ToString("yyyyMMdd_HHmmss_");
+                string baseFileName = "nba2k22stats_" + _game.StartTime.ToString("yyyyMMdd_HHmmss_");
                 filePath = exportFilePath + baseFileName + _game.Teams[0].Name + "-" + _game.Teams[1].Name + "_pbyp." + fileFormat;
             }
             var playByPlayOutputFile = new StreamWriter(filePath);
@@ -804,7 +804,7 @@ namespace _2k22Extractor
                 filePath = exportFilePath + "index.html";
             else
             {
-                string baseFileName = "nba2k19stats_" + _game.StartTime.ToString("yyyyMMdd_HHmmss_");
+                string baseFileName = "nba2k22stats_" + _game.StartTime.ToString("yyyyMMdd_HHmmss_");
                 filePath = exportFilePath + baseFileName + _game.Teams[0].Name + "-" + _game.Teams[1].Name + "." + fileFormat;
             }
 
