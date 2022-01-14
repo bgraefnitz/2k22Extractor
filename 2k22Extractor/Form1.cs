@@ -290,8 +290,8 @@ namespace _2k22Extractor
                 _game.Teams.Clear();
                 
                 //                               Score                   OnFloor                 Team Name               Def Settings
-                _game.Teams.Add(new Team("Away",   528, _baseAddress + 0x5346858, _baseAddress + 0x62850FC, _baseAddress + 0x5163A5C));
-                _game.Teams.Add(new Team("Home", -1400, _baseAddress + 0x5346880, _baseAddress + 0x6283EA4, _baseAddress + 0x6288548));
+                _game.Teams.Add(new Team("Away",   528, _baseAddress + 0x535CC58, _baseAddress + 0x629B57C, _baseAddress + 0x5163A5C));
+                _game.Teams.Add(new Team("Home", -1400, _baseAddress + 0x535CC80, _baseAddress + 0x629A324, _baseAddress + 0x6288548));
 
                 foreach (var team in _game.Teams)
                 {
@@ -401,13 +401,13 @@ namespace _2k22Extractor
                         }
                     }
                     //Now we'll get settings from the NLL site and set them in the game
-                    
+                    /*
                     var gameSettings = NLL.DataAccessLayer.GetGameSettings(_game.Teams[0].Name, _game.Teams[1].Name);
                     foreach(var opponentSettings in gameSettings.AwaySettings)
                         MapSettingsToInGamePlayer(processHandle,_game.Teams[0], _game.Teams[1], opponentSettings);
                     foreach (var opponentSettings in gameSettings.HomeSettings)
                         MapSettingsToInGamePlayer(processHandle, _game.Teams[1], _game.Teams[0], opponentSettings);
-                    
+                    */
                     return true;
                 }
                 MessageBox.Show("Please make sure a game setup with 12 minute quarters, is loaded, and start the extractor prior to tipoff!");
