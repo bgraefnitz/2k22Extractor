@@ -290,8 +290,8 @@ namespace _2k22Extractor
                 _game.Teams.Clear();
                 
                 //                               Score                   OnFloor                 Team Name               Def Settings
-                _game.Teams.Add(new Team("Away",   528, _baseAddress + 0x536F298, _baseAddress + 0x62ADAFC, _baseAddress + 0x5163A5C));
-                _game.Teams.Add(new Team("Home", -1400, _baseAddress + 0x536F2C0, _baseAddress + 0x62AC8A4, _baseAddress + 0x6288548));
+                _game.Teams.Add(new Team("Away",   528, _baseAddress + 0x539A5C8, _baseAddress + 0x62D9E9C, _baseAddress + 0x5163A5C));
+                _game.Teams.Add(new Team("Home", -1400, _baseAddress + 0x539A5F0, _baseAddress + 0x62D8C44, _baseAddress + 0x6288548));
 
                 foreach (var team in _game.Teams)
                 {
