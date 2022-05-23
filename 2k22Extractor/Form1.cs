@@ -290,8 +290,8 @@ namespace _2k22Extractor
                 _game.Teams.Clear();
                 
                 //                               Score                   OnFloor                 Team Name               Def Settings
-                _game.Teams.Add(new Team("Away",   528, _baseAddress + 0x539A5C8, _baseAddress + 0x62D9E9C, _baseAddress + 0x5163A5C));
-                _game.Teams.Add(new Team("Home", -1400, _baseAddress + 0x539A5F0, _baseAddress + 0x62D8C44, _baseAddress + 0x6288548));
+                _game.Teams.Add(new Team("Away",   528, _baseAddress + 0x53C6DE8, _baseAddress + 0x630669C, _baseAddress + 0x5163A5C));
+                _game.Teams.Add(new Team("Home", -1400, _baseAddress + 0x53C6E10, _baseAddress + 0x6305444, _baseAddress + 0x6288548));
 
                 foreach (var team in _game.Teams)
                 {
@@ -419,6 +419,7 @@ namespace _2k22Extractor
 
         private void MapSettingsToInGamePlayer(IntPtr processHandle, Team team, Team oppTeam, DefensiveMatchup opponentSettings)
         {
+            /*
             //get opposing player and if found set all strategy settings
             var oppPlayer = oppTeam.Players.FirstOrDefault(p => p.FullName.ToLower() == opponentSettings.OpposingPlayer);
             //TODO: change to a null check on oppPlayer if rosters are solid enough that we can use this as validation that the correct rosters are being used
@@ -442,6 +443,7 @@ namespace _2k22Extractor
                     SetBitsInInt(processHandle, team.DefensiveSettingsPointer, 1, offset.StartingBit, offset.BitLength, value, offset.OffsetInt + 12 * (oppPlayer.DepthChartPos - 1));
                 }
             }
+            */
     }
 
         private void GetStats(Game prevGame)
